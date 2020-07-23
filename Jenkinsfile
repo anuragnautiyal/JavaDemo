@@ -1,11 +1,10 @@
 pipeline{
-    agent none
+    agent{ dockerfile true }
      stages{
          stage ('test'){
-             agent { Dockerfile true }
+             
              steps{
-                 sh 'cd /src'
-                 sh 'java HelloWord'
+                 echo "hello"
              }
          }
      }
