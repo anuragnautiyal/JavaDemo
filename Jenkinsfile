@@ -5,6 +5,8 @@ pipeline{
              
              steps{
                  echo "hello"
+                 echo "first env $first_env"
+                 echo "hello"
              }
          }
      }
