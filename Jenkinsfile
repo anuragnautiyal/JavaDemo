@@ -6,7 +6,7 @@ pipeline{
              steps{
                  echo "hello"
                  echo "first env $first_env"
-                 echo "hello"
+                 echo "second : $second_env"
              }
          }
      }
