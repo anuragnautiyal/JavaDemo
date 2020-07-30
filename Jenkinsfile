@@ -1,5 +1,7 @@
 pipeline{
-    agent{ dockerfile true }
+    agent{ 
+        docker { image 'anuragnautiyal/sampleimages2020'}
+    }
      stages{
          stage ('test'){
              
